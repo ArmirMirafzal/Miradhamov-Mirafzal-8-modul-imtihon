@@ -1,0 +1,15 @@
+.nwOmR {
+	min-height: calc(80vh - 10rem);
+	width: 90vw;
+	.products {
+		display: grid;
+		gap: 3rem 1.5rem;
+		margin: 4rem auto;
+		grid-template-columns: 200px 1fr;
+	}
+}
+
+
+.home-products-container{
+	margin-top: 50px;
+}

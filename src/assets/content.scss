@@ -1,0 +1,28 @@
+.category-btn {
+ display: block;
+ margin: 0.25em 0px;
+ padding: 0.25rem 0px;
+ text-transform: capitalize;
+ background: transparent;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ border-image: initial;
+ border-bottom: 1px solid transparent;
+ letter-spacing: var(--spacing);
+ color: var(--clr-grey-5);
+ cursor: pointer;
+}
+
+.search-input {
+ padding: 0.5rem;
+ background: var(--clr-grey-10);
+ border-radius: var(--radius);
+ border-color: transparent;
+ letter-spacing: var(--spacing);
+}
+
+
+.form-item{
+ margin-top: 20px;
+}

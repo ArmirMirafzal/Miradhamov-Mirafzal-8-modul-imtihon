@@ -7,6 +7,7 @@ import "./assets/index.scss"
 import "./assets/home-products.scss"
 import "./assets/content.scss"
 import "./assets/products.scss"
+import "./assets/product.scss"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

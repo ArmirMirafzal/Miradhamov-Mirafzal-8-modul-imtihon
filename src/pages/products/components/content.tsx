@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
-
-const CATEGORY_API = "https://dummyjson.com/products/categories";
 
 interface ContentProps {
 	categories: [];

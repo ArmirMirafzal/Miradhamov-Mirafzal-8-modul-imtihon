@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "axios";
+import { Link } from "react-router-dom";
 
 interface ProductsProps {
 	products: [];
@@ -51,14 +51,13 @@ export default class Products extends Component<ProductsProps> {
 
 				<section>
 					<div className="products-container">
-						{this.props.products.map((product,idx) => {
+						{this.props.products.map((product, idx) => {
 							return (
 								<article key={idx} className="sc-bdfBwQ cIKpxU">
 									<div className="img-container">
-										<img
-											src={product["images"][0]}
-											alt="modern poster"
-										/>
+										<Link to="/product">
+											<img src={product["images"][0]} alt="modern poster" />
+										</Link>
 									</div>
 									<footer>
 										<h5>{product["title"]}</h5>
